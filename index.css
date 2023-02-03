@@ -1,0 +1,76 @@
+.parallax-container {
+    position: relative;
+    height: 1100px;
+    overflow: hidden;
+}
+
+.parallax-background-1 {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/00/84/99/32/1000_F_84993236_EibctQMO47lW353DS2K0L2RQn7cmjZ2n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.parallax-foreground-1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.parallax-background-2 {
+    background-image: url("https://chicagognosis.org/uploads/8/3/4/8/83487554/meditation-3814069_orig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.parallax-foreground-2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+}
+
+.subscript {
+    font-size: smaller;
+    vertical-align: sub;
+}
